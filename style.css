@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar{
+     height: 60px;
+     width: 100%;
+     background-color: #0f1111;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     color: white;
+     position: fixed;
+     top:0px;
+     z-index: 1; 
+     
+}
+
+#location{
+    width: 220px;
+    height: 50px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.boder{
+    border: 2px solid transparent;
+}
+
+.boder:hover{
+    border: 2px solid white;
+}
+
+.select{
+    background-color: #e6e6e6;
+    border: 2px solid #e6e6e6;
+}
+
+.input-bar::-webkit-input-placeholder{
+    font-size: 15px;
+}
+
+.search-bar{
+    display: flex;
+    
+}
+
+.flax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country{
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+#flag{
+    height: 17px;
+    width: 23px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg');
+    background-size: cover;
+
+}
+
+.sign-in{
+    height: 50px;
+    width: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.return-order{
+    height: 50px;
+    width: 77px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.cart{
+    height: 50px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-sec{
+    color: white;
+    display: flex;
+    margin-top: 60px;
+    
+
+}
+.nav-sec-1{
+    /* height: 40px;
+    width: 1056px; */
+    background-color: #262F40;
+    display: flex;
+}
+
+.nav-sec-2{
+    height: 40px;
+    width: 400px; 
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+
+.gap{
+    gap: 15px;
+}
+.white{
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+/* hero-section */
+main{
+    background-color: rgb(202, 195, 195);
+}
+#hero-section{
+    height: 600px;
+    width: 1349px;
+    background-image: linear-gradient(rgba(0, 0, 0,0),rgb(202, 195, 195)), url(hero.jpg);
+    /* background-image: url('hero.jpg'); */
+    background-size: cover;
+    
+}
+
+.hero-sec1{
+    height: 420px;
+    width: 307px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Swipper{
+    display: flex;
+    justify-content: center;
+   
+}
+
